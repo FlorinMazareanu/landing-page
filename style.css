@@ -131,15 +131,60 @@ body section {
 }
 #quote {
     background-color: #E5E7EB;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #quote .quote-text {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    width: 60%;
 }
 #action {
     background-color: white;
 }
+#action .call-to-action {
+    background-color: #3882f6;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 0.3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.call-to-action .call-to-action-stanga {
+
+}
+.call-to-action .call-to-action-dreapta {
+
+}
+.call-to-action-stanga .call-to-action-text-1 {
+    color: white;
+    font-weight: bolder;
+}
+.call-to-action-stanga .call-to-action-text-2 {
+    color: #E5E7EB;
+}
+.call-to-action-dreapta .call-to-action-button {
+    border: 2px solid white;
+    border-radius: 0.3em;
+    font-weight: bold;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    background-color: #3882f6;
+    color: white;
+}
 #footer {
     background-color: #1F2937;
+    color: white;
+    text-align: center;
 }
